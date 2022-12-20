@@ -1,0 +1,273 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+
+    background: #1E252B;
+
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-left: 111px;
+    margin-right: 105px;
+    margin-bottom: 58px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.menu-li {
+    display: inline-block;
+    text-align: center;
+}
+
+.link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.logo a {
+    padding-left: 12px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.select {
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.55);
+}
+
+
+
+.auth {
+    background: #FF6E30;
+    border-radius: 8px;
+    padding: 12px 28px 12px 28px;
+    border: none;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FDF5FF;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+.header-form {
+    display: flex;
+    margin-left: 118px;
+    margin-top: 135px;
+    flex-direction: column;
+
+    height: 354px;
+    width: 600px;
+}
+
+.header-content h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.header-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    width: 487px;
+
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.search-form {
+    margin-top: 60px;
+    display: flex;
+    width: 497.66px;
+    height: 64px;
+    background: #283036;
+    border-radius: 15px;
+    justify-content: space-between;
+
+}
+
+.search-input {
+    width: 100%;
+
+    color: #9E9C9C;
+    background: #283036;
+    border-radius: 15px;
+    padding: 20px 111px 20px 55px;
+    background: #283036;
+    border: none;
+    background-image: url('img/search.png');
+    background-repeat: no-repeat;
+    background-position: 18px 21px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.search-button {
+    width: 130.43px;
+    height: 48px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-right: 11px;
+    padding: 12px 36px 12px 36px;
+    background: #FF6E30;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.icons-message {
+    margin-top: 21px;
+}
+
+.head-items {
+    margin-top: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.head-items h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.head-items p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    width: 427px;
+    margin-top: 25px;
+
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.items {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    margin-left: 108px;
+    margin-right: 108px;
+    gap: 24px;
+}
+
+.tool {
+    width: 392px;
+    height: 294px;
+    padding: 33px;
+}
+
+.tool p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 30px;
+
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.tool-name {
+    display: flex;
+    margin-top: 33px;
+    gap: 40px;
+}
+
+.tool-name h1 {
+    margin-top: 1px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: rgba(255, 255, 255, 0.78);
+
+}
+
+.tool-name h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.tool-icons {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 124px;
+
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.button {
+    width: 106px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: rgba(255, 255, 255, 0.55);
+}

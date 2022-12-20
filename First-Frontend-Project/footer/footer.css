@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: 'Exo 2', sans-serif;
+    height: 100%;
+    width: 1440px;
+	height: 260px;
+	left: 0px;
+	top: 764px;
+
+	background: #05A88D;
+}
+
+.wrapper {
+
+	flex-direction: column;
+	min-height: 100%;
+}
+.main {
+	flex: 1 0 auto;
+}
+.footer{
+    flex: 0 0 auto;
+	margin-left: 40px;
+	margin-right: 28px;
+
+}
+
+.logo {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+/* identical to box height */
+
+
+	align-items: center;
+	letter-spacing: -0.015em;
+	text-transform: capitalize;
+
+	color: #F1E67D;
+}
+
+.text {
+	margin-top: 22px;
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+
+	letter-spacing: -0.015em;
+	
+	color: #FFFFFF;
+}
+
+.footer__left {
+	padding-top: 44px;
+	height: 46px;
+	width: 437px;
+	
+}
+
+.footer__right {
+	text-align: right;
+	
+}
+
+.contact {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	/* identical to box height */
+	
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.015em;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	color: #FFFFFF;
+	margin-top: 58px;
+}
+
+.phone {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: -0.015em;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	color: #F1E67D;
+	
+}
+
+.adress {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: -0.015em;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	color: #FFFFFF;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+
+	
+}
+
+.footer__top {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #FFFFFF;
+}
+
+.footer__bottom {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+
+	letter-spacing: -0.015em;
+	text-transform: capitalize;
+	margin-top: 36px;
+	color: #FFFFFF;
+}
