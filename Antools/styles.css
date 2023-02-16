@@ -281,7 +281,8 @@
 }
 
 .text-more {
-    margin-top:5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 43%;
     font-weight: 500;
     font-size: 20px;
@@ -294,4 +295,29 @@
     text-align: center;
     display: flex;
     justify-content: center;
+}
+
+.trusted {
+
+    margin-left: 108px;
+    margin-right: 108px;
+    background: rgba(107, 147, 183, 0.2);
+    border-radius: 25px;
+}
+
+.trusted p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.trusted-img {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
 }
