@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald';
+    font-style: normal;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.menu__ul {
+    justify-content: flex-start;
+    display: flex;
+    list-style-type: none;
+}
+
+.menu__logo {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu__link {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    padding-left: 46px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+
+    color: #000000;
+}
+
+a {
+    color: #000000;
+    text-decoration-line: none;
+}
+
+.menu__link :hover {
+    background-color: #817070;
+}
+
+.main-img {
+    display: block;
+    width: 100%;
+}
+
+.main-content__logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    top: 50%;
+    width: 100%;
+
+
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.container {
+    position: relative;
+}
+
+.line {
+    width: 80px;
+    height: 10px;
+    background-color: #817070;
+    border: none;
+}
+
+h1 {
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 59px;
+}
+
+.content-img {
+    width: 45%;
+}
+
+.main-text {
+    margin: 40px;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 65px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+
+.subscribe {
+    color: #EFEFEF;
+    padding-bottom: 28px;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.img-card {
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.card {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    background-color: #FFFFFF;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.text-card {
+    padding-bottom: 24px;
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    padding-bottom: 60px;
+    background: #817070;
+}
+
+input {
+    color: #FFFFFF;
+    background: none;
+    border: 2px solid #FFFFFF;
+    width: 250px;
+    height: 35px;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+}
+
+input::placeholder {
+    /* I don't know why placeholder is colored differently, 
+    so I made a separate style for the attribute. */
+    color: #FFFFFF;
+}
+
+button {
+    margin-top: 28px;
+    width: 129px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #817070;
+}
+
+button:hover {
+    background-color: #252525;
+}
+
+.info {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    margin-top: 28px;
+    margin-bottom: 14px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
