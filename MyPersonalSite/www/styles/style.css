@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #1E1E1E;
+    font-family: 'Inter';
+    font-style: normal;
+
+    color: #F1F1F1;
+}
+
+body {
+    padding: 0% 10% 0% 10%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 400;
+    line-height: 7px;
+
+}
+
+.header-li {
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.items-li {
+    padding: 19.37px;
+}
+
+.header-buttons {
+    font-weight: 500;
+    line-height: 6px;
+    padding-top: 14px;
+}
+
+.login {
+    border: 1px solid #F1F1F1;
+    border-radius: 3px;
+
+    width: 70px;
+    height: 40px;
+}
+
+.logo {
+    padding-top: 19px;
+}
+
+.resume {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.resume-content {
+    padding-top: 36px;
+    align-items: center;
+    width: 40%;
+    margin-right: 10%;
+}
+
+.resume h2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #656D72;
+    letter-spacing: 5px;
+}
+
+.resume h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 40px;
+
+    color: #F1F1F1;
+}
+
+.resume-content-style {
+    display: flex;
+    align-items: center;
+}
+
+.resume-content-h1 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.resume-content-p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+
+    color: rgba(241, 241, 241, 0.7);
+}
+
+.resume-content-icons img {
+    margin-top: 10%;
+    padding-right: 5%;
+    width: 5%;
+}
+
+.services {
+    margin-top: 70px;
+    align-items: center;
+}
+
+.resume-items {
+    width: 30%;
+    padding: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resume-items-icons {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+    background: #c3b6ff;
+}
+
+.resume-items p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    background: #FFFFFF;
+    color: #232E35;
+
+    text-align: center;
+}
+
+.resume-items h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 30px;
+    color: #232E35;
+    background: #FFFFFF;
+}
