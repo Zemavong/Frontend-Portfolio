@@ -71,7 +71,7 @@ class Enemy {
     }
 }
 
-const friction = 0.97
+const friction = 0.99
 class Particle {
     constructor(x, y, radius, color, velocity) {
         this.x = x
@@ -89,7 +89,7 @@ class Particle {
         c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false)
         c.fillStyle = this.color
         c.fill()
-        c.restore
+        c.restore()
     }
 
     update() {
@@ -200,7 +200,7 @@ function animate() {
 
             if (dist - enemy.radius - projectile.radius < 1) {
                 for (let i = 0; i < enemy.radius * 2; i++) {
-                    projectiles.push(
+                    particles.push(
                         new Particle(
                             projectile.x,
                             projectile.y,
